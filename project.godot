@@ -30,8 +30,12 @@ variables={
 "Tourist_Cap_Stay": {
 "cap": false,
 "stay": false
+},
+"score": 0
 }
-}
+glossary/default_case_sensitive=true
+layout/style_list=[]
+layout/default_style="Default"
 
 [editor_plugins]
 

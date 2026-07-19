@@ -12,6 +12,19 @@ background_mode = 2
 sky = SubResource("Sky_cijqi")
 tonemap_mode = 2
 
+[sub_resource type="PlaneMesh" id="PlaneMesh_42jke"]
+size = Vector2(6, 6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_cijqi"]
+size = Vector3(1, 0.5, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_pc6cg"]
+top_radius = 0.15
+bottom_radius = 0.15
+height = 0.2
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_yhhe0"]
+
 [node name="WaterStation" type="Node3D" unique_id=1147922964]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=2047353092]
@@ -23,4 +36,16 @@ shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=100176531]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1711950108]
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1711950108]
+mesh = SubResource("PlaneMesh_42jke")
+
+[node name="Base" type="MeshInstance3D" parent="." unique_id=412482483]
+mesh = SubResource("BoxMesh_cijqi")
+
+[node name="Valve" type="StaticBody3D" parent="." unique_id=1145199333]
+
+[node name="ValveMesh" type="MeshInstance3D" parent="Valve" unique_id=1792474230]
+mesh = SubResource("CylinderMesh_pc6cg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Valve" unique_id=177685600]
+shape = SubResource("CylinderShape3D_yhhe0")

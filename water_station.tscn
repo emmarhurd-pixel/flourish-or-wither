@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://btjnkm1ei7oyr"]
 
+[ext_resource type="Script" uid="uid://baqic2ybphx67" path="res://water_station.gd" id="1_cijqi"]
+
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_42jke"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
 ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -26,6 +28,7 @@ height = 0.2
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_yhhe0"]
 
 [node name="WaterStation" type="Node3D" unique_id=1147922964]
+script = ExtResource("1_cijqi")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=2047353092]
 environment = SubResource("Environment_pc6cg")

@@ -1,3 +1,9 @@
 [gd_scene format=3 uid="uid://bqcoy32wnf0tg"]
 
 [node name="Main" type="Node2D" unique_id=944333059]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1080383711]
+scale = Vector2(1, 16.039999)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+metadata/_edit_use_anchors_ = true

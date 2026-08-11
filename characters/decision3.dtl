@@ -1,0 +1,18 @@
+# Setting: the shop row on the boardwalk. Ocean-city clutter, buildings leaning shoulder to shoulder over the water, trashcans overflowing onto the planks.
+[background arg="res://icon.svg" fade="0.0"]
+ShopOwner: Don't. Don't look at me like that. I know what's in the roots. I see it every low tide same as you do.
+ShopOwner: After a long day baking on the sand, they all come up here parched, and they buy water by the case. Every shop on this row sells it by the case. It's half my summer, that water. Half.
+ShopOwner: And half a summer isn't spending money to me. It's shoes for two kids who won't stop growing. It's a roof that doesn't leak yet, and I'd like to keep it that way.
+ShopOwner: But I'll tell you true. Not every empty bottle finds a can. They blow off the boardwalk, they wash into the shallows, and they end up tangled in your tree's roots like the sea's trying to hand them back to us.
+ShopOwner: You could put in refill stations. The town can just barely scrape the coin for them, and only barely. And the day you do, my busiest shelf goes bare.
+ShopOwner: Or we carry on. I keep my lights burning and my kids in shoes. And the tide keeps returning the empties, one by one, forever.
+- Put in the stations
+	# The budget drops hard. Fewer bottles drift into the roots.
+	ShopOwner: ...Alright. Alright. We'll manage. We always do, somehow, don't ask me how.
+	# She means it, and you can hear exactly what it costs her to mean it.
+	[background arg="res://icon.svg" fade="0.0"]
+- Keep the shelves stocked
+	# Empty bottles collect in the mangrove roots, bobbing in the brown water.
+	ShopOwner: Thank you. Truly, thank you. I'll figure the rest out, I always figure it out.
+	# Relief floods her face, and the reef is the one that pays for it. You chose that. Let it sit.
+	[background arg="res://icon.svg" fade="0.0"]

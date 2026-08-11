@@ -1,0 +1,18 @@
+# Setting: the beach in full sun. Umbrellas, towels, bodies in the shallows. Two sunscreen bottles sit on a railing, one labeled reef-safe, one not.
+[background arg="res://icon.svg" fade="0.0"]
+TheKeeper: Look how they love it. Our beaches, pristine as the day the town was born. The visitors can't get enough of the water.
+ReefDiver: That's the trouble. It's the water I want to talk to you about.
+ReefDiver: I went down to the reef this morning. It's going pale at the edges. Losing its color, like it's starting to forget it was ever pink.
+ReefDiver: It's the sunscreen. Most of what folks rub on before they wade in, the coral simply can't stand it. Enough of it, and the pale pink turns to bleached white, and white doesn't come back.
+ReefDiver: We could make a rule. Reef-safe only, if you want to get in the water. The shops would have to stock the pricier kind, and that cost lands on everyone.
+ReefDiver: And I'll be honest with you. There are so many people now that we could never truly check every shoulder on every stretch of sand. A rule's only as good as the hands that keep it.
+ReefDiver: Or we let it be, and we hope, and we watch.
+- Make the ask
+	# The reef holds its color. A cluster of tourists frown at a register, paying more than they wanted to.
+	ReefDiver: Some will gripe. Some will switch. A few will sneak the cheap stuff on in the parking lot. But the reef takes what it can get, and so do I. It's not nothing.
+	[background arg="res://icon.svg" fade="0.0"]
+- Let it be
+	# The coral pales, then whitens, the pink draining out of it frame by frame.
+	ReefDiver:  ...Yeah. Maybe you're right. Maybe it was always going to be too big for a town this small.
+	# (He doesn't argue it. He just looks out at the white and lets the quiet say the rest.)
+	[background arg="res://icon.svg" fade="0.0"]

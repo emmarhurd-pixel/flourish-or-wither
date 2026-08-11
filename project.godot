@@ -31,6 +31,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "decision1": "res://timelines/decision1.dtl",
+"decision2": "res://characters/decision2.dtl",
 "opening_timeline": "res://timelines/opening_timeline.dtl"
 }
 layout/style_directory={}

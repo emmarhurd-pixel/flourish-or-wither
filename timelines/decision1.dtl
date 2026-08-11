@@ -1,13 +1,15 @@
 # Setting: the head of the boardwalk. Suitcases stacked and toppling, a line of new arrivals stretching down the planks
 [background arg="res://icon.svg" fade="0.0"]
-DockMaster:  Look at them all! Season's barely cracked open and the boards are already singing under the weight.
+DockMaster: Look at them all! Season's barely cracked open and the boards are already singing under the weight.
 DockMaster: Good singing or bad singing, I can never tell until it's too late to matter.
 DockMaster: Here's the shape of it. I can turn some away right here at the dock. Keeps us room to move. Costs us the best coin of the whole year, and we don't get a second summer.
 DockMaster: Or I wave the lot of them through and we make what we can while the making's good.
-DockMaster:  Understand me, though. Cap them or don't, it's still more souls than these streets were laid for. We're not choosing whether the town fills up. Only how fast.
+DockMaster: Understand me, though. Cap them or don't, it's still more souls than these streets were laid for. We're not choosing whether the town fills up. Only how fast.
 - Hold the line
 	# Suitcases thin out. The boardwalk breathes
 	Aye. Lighter till, quieter dock. We'll feel it come winter, in the ledger and the belly. But we'll feel it clean.
+	[background arg="res://icon.svg" fade="0.0"]
 - Let them come
 	# The planks crowd wall to wall. Barely room to walk.
-	 Ha! Then hold your hat, and your wallet, and whatever patience you came in with. It's going to be a loud one.
+	Ha! Then hold your hat, and your wallet, and whatever patience you came in with. It's going to be a loud one.
+	[background arg="res://icon.svg" fade="0.0"]

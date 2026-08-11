@@ -11,7 +11,6 @@ config_version=5
 [application]
 
 config/name="Flourish or Wither"
-run/main_scene="uid://bexgiuvw7103d"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -23,7 +22,7 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 directories/dch_directory={}
 directories/dtl_directory={
-"timeline": "res://timeline.dtl"
+"opening_timeline": "res://timelines/opening_timeline.dtl"
 }
 layout/style_directory={}
 variables={

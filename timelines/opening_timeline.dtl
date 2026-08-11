@@ -1,0 +1,14 @@
+# Closed bundle on screen. Prompt: "Open?"
+[background arg="res://icon.svg" fade="0.0"]
+# On open: a mangrove sprout appears with an info card beside it.
+[background arg="res://icon.svg" fade="0.0"]
+# The sprout is planted, floating upright in the shallows. Then the screen blooms into a vision of what it could be: the tree full and green, small fish darting through the tangle of its roots, coral going pink at the waterline.
+[background arg="res://icon.svg" fade="0.0"]
+Welcome. We hoped someone would come.
+This is our town. Humble, we know, but it's ours, and we love it the way you love a thing that needs you.
+[background fade="0.0"]
+And this. This is your tree now. Ours once. Yours to keep.
+Every year the boats come earlier, and there are more of them than the year before. The visitors are good to us. They are also more than the land was ever built to hold.
+The tide comes in whether we're ready or not. All we choose is what it finds when it arrives.
+We can't tell you what's right. We only ask that you choose like the tree is watching.
+Because it is.

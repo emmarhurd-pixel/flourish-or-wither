@@ -20,8 +20,17 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
-directories/dch_directory={}
+directories/dch_directory={
+"Captain": "res://characters/Captain.dch",
+"Chef": "res://characters/Chef.dch",
+"DockMaster": "res://characters/DockMaster.dch",
+"Fisherman": "res://characters/Fisherman.dch",
+"ReefDiver": "res://characters/ReefDiver.dch",
+"ShopOwner": "res://characters/ShopOwner.dch",
+"TheKeeper": "res://characters/TheKeeper.dch"
+}
 directories/dtl_directory={
+"decision1": "res://timelines/decision1.dtl",
 "opening_timeline": "res://timelines/opening_timeline.dtl"
 }
 layout/style_directory={}

@@ -1,0 +1,19 @@
+# Setting: the beach at dusk, more water than sand now, the whole sky gone gold down to the horizon.
+[background arg="res://icon.svg" fade="0.0"]
+Captain: Would you look at that sky. Gold all the way down to the waterline. Folks would empty their pockets to be out on the water under a sky like this.
+Captain: And I could take them. Run twice the tours I run now. Lord knows I could use the fares, with the season what it is.
+Captain: But every extra hull means more wake, and more wake the reef doesn't love. It's not just the coral, either.
+Captain: The birds nest in the shallows this time of year, and a busy channel drives them off their eggs.
+Captain: And a boat moving fast in low light, well. Sometimes it finds something soft in the water that it shouldn't.
+if {coral_bleached} == true:
+	Captain:  And Tony tells me the reef's already tender. Wouldn't take much more to finish what's started.
+Captain: Your call, keeper. I'll steer whichever way you point me, and I won't say a word about it after. But I'll know. And so will you.
+- Run more tours
+	# A dolphin surfaces with a raw gash along its flank. Broken coral. Nests abandoned, the eggs gone cold.
+	Captain: The gray one had a fresh mark on her side today. Long one. I didn't run her over. But somebody in my fleet did, and I sent that fleet out, so.
+	# He shares the weight of it. He does not hand it to you.
+	[background arg="res://icon.svg" fade="0.0"]
+- Keep it steady
+	# The dolphin whole and unmarked. A nest sits full, eggs warm under a watchful mother.
+	Captain:  Slower season, thinner pockets. But I watched the gray one leading her calf through the shallows this morning, the two of them just taking their time. Worth something, that. Worth more than a full boat, some mornings.
+	[background arg="res://icon.svg" fade="0.0"]

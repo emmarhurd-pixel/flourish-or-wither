@@ -13,6 +13,7 @@ ReefDiver: Or we let it be, and we hope, and we watch.
 	[background arg="res://icon.svg" fade="0.0"]
 - Let it be
 	# The coral pales, then whitens, the pink draining out of it frame by frame.
-	ReefDiver:  ...Yeah. Maybe you're right. Maybe it was always going to be too big for a town this small.
+	ReefDiver: ...Yeah. Maybe you're right. Maybe it was always going to be too big for a town this small.
+	set {coral_bleached} = true
 	# (He doesn't argue it. He just looks out at the white and lets the quiet say the rest.)
 	[background arg="res://icon.svg" fade="0.0"]

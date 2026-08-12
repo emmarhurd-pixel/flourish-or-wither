@@ -1,0 +1,18 @@
+# inside the restaurant. A single steaming bowl on the table between two people standing on opposite sides of it. Nelson, apron on. Wyatt, cap in hand.
+[background arg="res://icon.svg" fade="0.0"]
+Chef: We're out, cleaned out. Not a snapper left in the whole town, and the marsh boil is the only reason half these folks drive the long road down to us at all.
+Chef: Take the boil off the board and you take the town's name off their tongues.
+Chef: There's one way to keep it going\: trawlers. Commercial boats, nets the size of the harbor mouth. They'd keep my kitchen stocked till the end of time. We'd never run dry again.
+Fisherman: Those nets take everything, keeper. Not just the snapper. Everything that swims into them, sold or dumped, it all comes up together.
+Fisherman: I've worked this water forty years. My father worked it before me off the same little boat. But a trawler sells the very fish I catch, cheaper and by the ton, and there's no living left in it for a small boat after that. I'd have to find some other way to be, this late in the day.
+Chef: ...He's not wrong. I've known Wyatt since we were children. But if the boil dies, half my business dies with it, and the folks I feed and the folks I employ feel that too.
+Chef: So. Do we keep the dish that made us, or the water that fed the dish?
+- Bring in the trawlers
+	# The boil stays on the menu, steam rising. Out in the harbor, the water goes empty and still. Wyatt's little boat sits dark at the dock.
+	Fisherman: Well. Reckon I'll learn something new at sixty, then.
+	Fisherman: Take care of the water, keeper. What's left of it. Somebody should.
+	[background arg="res://icon.svg" fade="0.0"]
+- Let the dish rest
+	# The signature comes off the board. Out in the shallows, fish return, small silver flashes multiplying week by week.
+	Fisherman: I'll put something else on. Folks will grumble, and some won't drive down again, and I'll feel every one of them. But the water will thank us eventually, I suppose. Give it a few years to find its voice again.
+	[background arg="res://icon.svg" fade="0.0"]

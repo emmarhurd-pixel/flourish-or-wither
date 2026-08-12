@@ -31,17 +31,15 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "decision1": "res://timelines/decision1.dtl",
-"decision2": "res://characters/decision2.dtl",
-"decision3": "res://characters/decision3.dtl",
+"decision2": "res://timelines/decision2.dtl",
+"decision3": "res://timelines/decision3.dtl",
+"decision4": "res://timelines/decision4.dtl",
+"decision5": "res://characters/decision5.dtl",
 "opening_timeline": "res://timelines/opening_timeline.dtl"
 }
 layout/style_directory={}
 variables={
-"Tourist_Cap_Stay": {
-"cap": false,
-"stay": false
-},
-"score": 0
+"coral_bleached": false
 }
 glossary/default_case_sensitive=true
 layout/style_list=[]

@@ -34,7 +34,8 @@ directories/dtl_directory={
 "decision2": "res://timelines/decision2.dtl",
 "decision3": "res://timelines/decision3.dtl",
 "decision4": "res://timelines/decision4.dtl",
-"decision5": "res://characters/decision5.dtl",
+"decision5": "res://timelines/decision5.dtl",
+"decision6": "res://timelines/decision6.dtl",
 "opening_timeline": "res://timelines/opening_timeline.dtl"
 }
 layout/style_directory={}

@@ -1,0 +1,12 @@
+# Setting: the beach. A resort stands rendered half-transparent over the tree line, as if the building itself hasn't decided whether to exist.
+TheKeeper: It's come to this, then. We've visitors sleeping on the sand now. On the benches. Folded into their cars with the windows cracked for air.
+TheKeeper: There's not enough roof in this town to keep them off the streets. A resort would change that. House every one of them, and bring in more coin than this town has seen in all its years put together.
+TheKeeper: But there's only one patch of ground with room enough to raise it. And you already know which trees are standing on it.
+TheKeeper: You've given us a season of hard yeses and harder nos to arrive here. The reef remembers what you chose for it. So does the water, and the roots, and every one of us.
+TheKeeper: This is the last we'll ask of you. It's also the heaviest. The tide's nearly in. This is what it finds.
+- Leave the forest standing
+	# The final scene shows the culmination of every choice you made. The tree, the reef, the town, the water, all of it reflects the exact road you walked to get here. Whatever you protected stands. Whatever you spent is gone.
+	[background arg="res://icon.svg" fade="0.0"]
+- Clear the land
+	# A stump where the tree once stood. An axe left buried in it, handle jutting. The camera holds on it a beat longer than is comfortable. There is no line of dialogue over this one. It doesn't need one.
+	[background arg="res://icon.svg" fade="0.0"]

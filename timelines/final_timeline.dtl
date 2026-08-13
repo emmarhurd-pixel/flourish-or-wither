@@ -1,0 +1,13 @@
+[background arg="res://icon.svg" fade="0.0"]
+if {tree_flourished} == true:
+	TheKeeper: Look at it. Would you look at it.
+	TheKeeper: Fish threading through the roots, coral coming back pink at the edges, the whole thing breathing again.
+	TheKeeper: You did right by us, mostly, enough. The tide came in, and it found a town worth arriving at.
+else:
+	TheKeeper: It's quiet now. Could be the good kind of empty. Could be the other kind.
+	TheKeeper: It's quiet now. Could be the good kind of empty. Could be the other kind. You'll know which one you left us with, deep down, when the boats stop coming.
+TheKeeper: The tide always comes in. The tree was always watching.
+TheKeeper: Both of those were true before you got here, and they'll be true after you're gone.
+TheKeeper: But for one season, what met the water was yours to decide. That was the whole of it. That was everything.
+# Screen: "Plant again?" with a closed bundle, exactly as the opening.
+[background arg="res://icon.svg" fade="0.0"]

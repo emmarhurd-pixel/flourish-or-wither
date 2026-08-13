@@ -6,7 +6,9 @@ TheKeeper: You've given us a season of hard yeses and harder nos to arrive here.
 TheKeeper: This is the last we'll ask of you. It's also the heaviest. The tide's nearly in. This is what it finds.
 - Leave the forest standing
 	# The final scene shows the culmination of every choice you made. The tree, the reef, the town, the water, all of it reflects the exact road you walked to get here. Whatever you protected stands. Whatever you spent is gone.
+	set {tree_flourished} = true
 	[background arg="res://icon.svg" fade="0.0"]
 - Clear the land
 	# A stump where the tree once stood. An axe left buried in it, handle jutting. The camera holds on it a beat longer than is comfortable. There is no line of dialogue over this one. It doesn't need one.
+	set {tree_flourished} = false
 	[background arg="res://icon.svg" fade="0.0"]

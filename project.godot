@@ -30,17 +30,20 @@ directories/dch_directory={
 "TheKeeper": "res://characters/TheKeeper.dch"
 }
 directories/dtl_directory={
+"credits": "res://timelines/credits.dtl",
 "decision1": "res://timelines/decision1.dtl",
 "decision2": "res://timelines/decision2.dtl",
 "decision3": "res://timelines/decision3.dtl",
 "decision4": "res://timelines/decision4.dtl",
 "decision5": "res://timelines/decision5.dtl",
 "decision6": "res://timelines/decision6.dtl",
+"final_timeline": "res://timelines/final_timeline.dtl",
 "opening_timeline": "res://timelines/opening_timeline.dtl"
 }
 layout/style_directory={}
 variables={
-"coral_bleached": false
+"coral_bleached": false,
+"tree_flourished": false
 }
 glossary/default_case_sensitive=true
 layout/style_list=[]

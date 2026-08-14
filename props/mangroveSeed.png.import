@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvhmnspq1g1ek"
-path="res://.godot/imported/closedBag.png-c5157b0e0331ff9cb491b1891c591988.ctex"
+uid="uid://08usls0wnsbd"
+path="res://.godot/imported/mangroveSeed.png-fd2f7196dd0622fa75deaac254842f39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://backgrounds/closedBag.png"
-dest_files=["res://.godot/imported/closedBag.png-c5157b0e0331ff9cb491b1891c591988.ctex"]
+source_file="res://props/mangroveSeed.png"
+dest_files=["res://.godot/imported/mangroveSeed.png-fd2f7196dd0622fa75deaac254842f39.ctex"]
 
 [params]
 

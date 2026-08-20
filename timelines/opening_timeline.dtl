@@ -4,7 +4,7 @@
 [background arg="res://icon.svg" fade="0.0"]
 # The sprout is planted, floating upright in the shallows. Then the screen blooms into a vision of what it could be: the tree full and green, small fish darting through the tangle of its roots, coral going pink at the waterline.
 [background arg="res://icon.svg" fade="0.0"]
-TheKeeper: Welcome. We hoped someone would come.
+TheKeeper: Welcome, we hoped someone would come.
 TheKeeper: This is our town. Humble, we know, but it's ours, and we love it the way you love a thing that needs you.
 [background fade="0.0"]
 TheKeeper: And this. This is your tree now. Ours once. Yours to keep.

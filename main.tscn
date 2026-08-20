@@ -4,17 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://dvhmnspq1g1ek" path="res://props/closedBag.png" id="2_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://08usls0wnsbd" path="res://props/mangroveSeed.png" id="3_lquwl"]
 [ext_resource type="Texture2D" uid="uid://du8wgjgf4p0k1" path="res://props/mangroveSapling.png" id="4_7mycd"]
+[ext_resource type="Texture2D" uid="uid://nm88kyflyyj4" path="res://props - Copy/clarionAngelfish.png" id="5_lquwl"]
 
 [node name="Main" type="Node2D" unique_id=944333059]
 script = ExtResource("1_ig7tw")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1080383711]
+[node name="background" type="TextureRect" parent="." unique_id=1080383711]
 scale = Vector2(13.12, 30.959995)
 size_flags_horizontal = 4
 size_flags_vertical = 4
 metadata/_edit_use_anchors_ = true
 
-[node name="closedBag" type="TextureRect" parent="TextureRect" unique_id=1142435923]
+[node name="closedBag" type="TextureRect" parent="background" unique_id=1142435923]
 visible = false
 layout_mode = 0
 offset_left = 19.131098
@@ -25,7 +26,7 @@ scale = Vector2(0.9399933, 0.74543166)
 size_flags_horizontal = 4
 texture = ExtResource("2_1bvp3")
 
-[node name="mangroveSeed" type="TextureRect" parent="TextureRect" unique_id=2039623520]
+[node name="mangroveSeed" type="TextureRect" parent="background" unique_id=2039623520]
 visible = false
 layout_mode = 0
 offset_left = 14.939022
@@ -36,7 +37,7 @@ scale = Vector2(0.80792683, 0.2726098)
 texture = ExtResource("3_lquwl")
 expand_mode = 5
 
-[node name="mangroveSapling" type="TextureRect" parent="TextureRect" unique_id=1665995037]
+[node name="mangroveSapling" type="TextureRect" parent="background" unique_id=1665995037]
 visible = false
 layout_mode = 0
 offset_left = 29.192078
@@ -46,3 +47,16 @@ offset_bottom = 71.79367
 scale = Vector2(0.72865856, 0.21059416)
 texture = ExtResource("4_7mycd")
 expand_mode = 5
+
+[node name="clarionAngelfish" type="TextureRect" parent="background" unique_id=235087611]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 69.054886
+offset_top = 16.052975
+offset_right = 838.0549
+offset_bottom = 500.05298
+grow_horizontal = 2
+scale = Vector2(0.011679336, 0.004780669)
+texture = ExtResource("5_lquwl")

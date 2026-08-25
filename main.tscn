@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://08usls0wnsbd" path="res://props - Copy/mangroveSeed.png" id="3_lquwl"]
 [ext_resource type="Texture2D" uid="uid://du8wgjgf4p0k1" path="res://props - Copy/mangroveSapling.png" id="4_7mycd"]
 [ext_resource type="Texture2D" uid="uid://nm88kyflyyj4" path="res://props - Copy/clarionAngelfish.png" id="5_lquwl"]
-[ext_resource type="Texture2D" uid="uid://c1lx37ktoy3ph" path="res://props/moorishIdolFish.png" id="6_7mycd"]
+[ext_resource type="Texture2D" uid="uid://c1lx37ktoy3ph" path="res://props - Copy/moorishIdolFish.png" id="6_7mycd"]
 
 [node name="Main" type="Node2D" unique_id=944333059]
 script = ExtResource("1_ig7tw")
@@ -19,11 +19,11 @@ metadata/_edit_use_anchors_ = true
 [node name="closedBag" type="TextureRect" parent="background" unique_id=1142435923]
 visible = false
 layout_mode = 0
-offset_left = 19.131098
-offset_top = 0.87209314
-offset_right = 728.1311
-offset_bottom = 947.8721
-scale = Vector2(0.9399933, 0.74543166)
+offset_left = 8.917685
+offset_top = 0.516796
+offset_right = 717.91766
+offset_bottom = 947.5168
+scale = Vector2(0.07583606, 0.023141503)
 size_flags_horizontal = 4
 texture = ExtResource("2_1bvp3")
 
@@ -64,6 +64,7 @@ scale = Vector2(0.011679336, 0.004780669)
 texture = ExtResource("5_lquwl")
 
 [node name="moorishIdolFish" type="TextureRect" parent="background" unique_id=905576817]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5

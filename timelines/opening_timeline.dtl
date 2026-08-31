@@ -1,8 +1,10 @@
 # Closed bundle on screen. Prompt: "Open?"
 [background arg="res://icon.svg" fade="0.0"]
 # On open: a mangrove sprout appears with an info card beside it.
+[signal arg="show_seed"]
 [background arg="res://icon.svg" fade="0.0"]
 # The sprout is planted, floating upright in the shallows. Then the screen blooms into a vision of what it could be: the tree full and green, small fish darting through the tangle of its roots, coral going pink at the waterline.
+[signal arg="show_sapling"]
 [background arg="res://icon.svg" fade="0.0"]
 TheKeeper: Welcome, we hoped someone would come.
 TheKeeper: This is our town. Humble, we know, but it's ours, and we love it the way you love a thing that needs you.
